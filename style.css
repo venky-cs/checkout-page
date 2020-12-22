@@ -3,3 +3,107 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+    padding: 35px 20px;
+}
+main{
+    flex: 0.65;
+}
+section{
+    flex: 0.30;
+}
+.product{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.wrapper{
+    width: 80%;
+    background-color: #f2f2f2;
+    border-radius:12px;
+    margin: 0 auto;
+}
+.image{
+    width:160px;
+    padding: 20px 30px 20px 0;
+}
+img{
+    width: 100%;
+    border-radius: 12px;
+}
+.detail h4,.detail p{
+    padding: 8px;
+}
+p b{
+    display: inline-block;
+    width: 80px;
+    color:#F2994A;
+}
+p span{
+    text-decoration: line-through;
+}
+
+.num b{
+    color: black;
+}
+.num button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+}
+.detail div{
+    width: 150px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    border: 1px solid grey;
+}
+.inline{
+    display: flex;
+}
+.inline h3{
+    width: 400px;
+}
+.input{
+    padding: 10px 0;
+}
+input{
+    width:50%;
+    padding:5px;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+.checkbox label{
+    display: inline;
+}
+.checkbox input{
+    width: 30px;
+}
+.button{
+    margin-left: 60%;
+}
+.contact, .address{
+    margin: 40px 0;
+}
+.nest {
+    display: flex;
+}
+
+
+
