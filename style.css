@@ -107,13 +107,69 @@ input{
 .nest .input input{
     width: 85%;
 }
+.button button{
+    padding:10px 30px;
+    margin: 15px;
+    border-radius: 12px;
+    background-color:orange;
+    color:white;
+    border: 1px solid grey;
+}
+.button button:focus{
+    outline: none;
+}
 
-@media (max-width:1024px){
+@media(max-width:1024px){
+    body,
+    header,
+    .container {
+        width: 90%;
+    }
+    header {
+        padding:20px 0;
+    }
+main {
+    flex: 1;
+    width: 50%;
+}
+
+section {
+    flex: 1;
+    width: 60%;
+    margin: 35px 0;
+}
+}
+
+@media (max-width:768px){
+    main {
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .product{
+        justify-content: space-around;
+    }
 body,header,.container{
 width: 100%;
 }
+header{
+    padding: 20px;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
     .container {
         flex-direction: column;
+    }
+    .contact ,.address{
+        margin:4%;
+    }
+    input{
+        width: 100%;
     }
 
     main {
