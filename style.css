@@ -7,7 +7,6 @@
 body{
     width: 80%;
     margin: 0 auto;
-    height: 100vh;
 }
 
 .container{
@@ -76,6 +75,7 @@ p span{
 }
 .inline{
     display: flex;
+    padding: 15px;
 }
 .inline h3{
     width: 400px;
@@ -84,7 +84,7 @@ p span{
     padding: 10px 0;
 }
 input{
-    width:50%;
+    width:65%;
     padding:5px;
     border-radius: 6px;
     border: 1px solid grey;
@@ -104,6 +104,24 @@ input{
 .nest {
     display: flex;
 }
+.nest .input input{
+    width: 85%;
+}
 
+@media (max-width:1024px){
+body,header,.container{
+width: 100%;
+}
+    .container {
+        flex-direction: column;
+    }
 
+    main {
+        order: 2;
+    }
+
+    .section {
+        order: 1;
+    }
+}
 
