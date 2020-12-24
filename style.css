@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,8 @@ body{
     width: 80%;
     margin: 0 auto;
     height: 100vh;
+    font-family: 'Montserrat',
+    sans-serif;
 }
 
 .container{
@@ -20,6 +23,10 @@ header{
     width: 80%;
     margin: 0 auto;
     padding: 35px 20px;
+}
+.title{
+    font-weight: 600;
+    font-size: 36px;
 }
 main{
     flex: 0.65;
@@ -36,7 +43,7 @@ section{
     width: 80%;
     background-color: #f2f2f2;
     border-radius:12px;
-    margin: 0 auto;
+    margin:45px auto;
 }
 .image{
     width:160px;
@@ -53,17 +60,21 @@ p b{
     display: inline-block;
     width: 80px;
     color:#F2994A;
+    font-weight: 600;
+    font-size: 16px;
 }
 p span{
     text-decoration: line-through;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .num b{
     color: black;
 }
 .num button{
-    outline: none;
-    border: none;
+    background-color: #E0E0E0;
+    border-radius: 4px;
     cursor: pointer;
     padding: 2px;
 }
@@ -74,15 +85,25 @@ p span{
     background-color: #f2f2f2;
     border: 1px solid grey;
 }
+.detail h4{
+    font-weight: 600;
+    font-size: 16px;
+}
 .inline{
     display: flex;
     padding: 15px;
 }
 .inline h3{
     width: 400px;
+    font-weight: 600;
+    font-size: 18px;
 }
 .input{
     padding: 10px 0;
+}
+.input p, .checkbox label{
+    font-weight: 600;
+    font-size: 12px;
 }
 input{
     width:65%;
@@ -102,6 +123,10 @@ input{
 .contact, .address{
     margin: 40px 0;
 }
+.sub-title{
+    font-weight: 600;
+    font-size: 18px;
+}
 .nest {
     display: flex;
 }
@@ -115,12 +140,29 @@ input{
     background-color:orange;
     color:white;
     border: 1px solid grey;
+    font-weight: 600;
+    font-size: 16px;
 }
 .button button:focus{
     outline: none;
 }
 footer p{
     text-align:center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* icons */
+
+.input >span{
+    position:absolute;
+    right: 100;
+    color: grey;
+    width: 70%;
+}
+
+.input > input{
+    padding-left: 30px;
 }
 
 @media(max-width:1024px){
@@ -136,6 +178,9 @@ main {
     flex: 1;
     width: 50%;
 }
+.wrapper{
+    margin-top: 20px;
+}
 
 section {
     flex: 1;
@@ -145,25 +190,24 @@ section {
 }
 
 @media (max-width:768px){
-    main {
-        width: 100%;
-    }
-
-    section {
-        width: 100%;
-    }
-
-    .product{
-        justify-content: space-around;
-    }
 body,header,.container{
 width: 100%;
 }
+ main {
+     width: 100%;
+ }
+
+ .product {
+     justify-content: space-around;
+ }
 header{
     padding: 20px;
 }
+section{
+    width: 100%;
+}
 .wrapper{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
     .container {
@@ -182,6 +226,13 @@ header{
 
     .section {
         order: 1;
+    }
+}
+
+@media (max-width:450px){
+    .wrapper{
+        width: 95%;
+        margin: 0 auto;
     }
 }
 
