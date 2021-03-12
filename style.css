@@ -56,14 +56,14 @@ img {
 .detail p {
   padding: 8px;
 }
-p b {
+p > b {
   display: inline-block;
   width: 80px;
   color: #f2994a;
   font-weight: 600;
   font-size: 16px;
 }
-p span {
+.detail > p span {
   text-decoration: line-through;
   font-weight: 600;
   font-size: 12px;
@@ -149,9 +149,9 @@ input {
   outline: none;
 }
 footer p {
-    position: absolute;
-    bottom: 0;
-    width: 80%;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
   text-align: center;
   font-weight: 600;
   font-size: 14px;
@@ -163,7 +163,7 @@ footer p {
   position: absolute;
   right: 100;
   color: grey;
-  width: 70%;
+  /* width: 70%; */
 }
 
 .input > input {
@@ -235,9 +235,10 @@ footer p {
   .section {
     order: 1;
   }
-  footer p{
-      position: relative;
-      bottom:0;
+  footer p {
+    position: relative;
+    bottom: 0;
+    width: 100%;
   }
 }
 
@@ -246,8 +247,8 @@ footer p {
     width: 95%;
     margin: 0 auto;
   }
-  footer p{
-      position: relative;
-      bottom:0;
+  footer p {
+    position: relative;
+    bottom: 0;
   }
 }
