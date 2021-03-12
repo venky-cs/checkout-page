@@ -1,159 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>checkout-page</title>
-    <link rel="icon" href="./images/devchallenges.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/devchallenges.png" />
+    <link rel="stylesheet" href="style.css" />
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <h3 class="title">
-            Checkout
-        </h3>
+      <h3 class="title">Checkout</h3>
     </header>
 
-
     <div class="container">
+      <main>
+        <div class="contact">
+          <h4 class="sub-title">Contact information</h4>
 
-        <main>
-            <div class="contact">
-                <h4 class="sub-title">
-                    Contact information
-                </h4>
+          <div class="input">
+            <p>E-mail</p>
+            <span class="material-icons"> email </span>
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Enter your email..."
+            />
+          </div>
 
-                <div class="input">
-                    <p>E-mail</p>
-                    <span class="material-icons">
-                        email
-                    </span>
-                    <input type="email" name="" id="" placeholder="Enter your email...">
-                </div>
+          <div class="input">
+            <p>Phone</p>
+            <span class="material-icons"> call </span>
+            <input type="tel" name="" id="" placeholder="Enter your phone..." />
+          </div>
+        </div>
 
-                <div class="input">
-                    <p>Phone</p>
-                    <span class="material-icons">
-                        call
-                    </span>
-                    <input type="tel" name="" id="" placeholder="Enter your phone...">
-                </div>
+        <div class="address">
+          <h4 class="sub-title">Shipping Address</h4>
+
+          <div class="input">
+            <p>Full name</p>
+            <span class="material-icons"> account_circle </span>
+            <input
+              type="text"
+              name="Rodney Cotton"
+              id=""
+              value="Rodney Cotton"
+            />
+          </div>
+
+          <div class="input">
+            <p>Address</p>
+            <span class="material-icons"> home </span>
+            <input type="text" name="" id="" placeholder="Your address..." />
+          </div>
+
+          <div class="input">
+            <p>City</p>
+            <span class="material-icons"> location_city </span>
+            <input type="text" name="" id="" placeholder="Your city..." />
+          </div>
+
+          <div class="nest">
+            <div class="input">
+              <p>Country</p>
+              <span class="material-icons"> public </span>
+              <input type="text" name="" id="" placeholder="Your country..." />
             </div>
 
-            <div class="address">
-                <h4 class="sub-title">
-                    Shipping Address
-                </h4>
-
-                <div class="input">
-                    <p>Full name</p>
-                    <span class="material-icons">
-                        account_circle
-                    </span>
-                    <input type="text" name="Rodney Cotton" id="" value="Rodney Cotton">
-                </div>
-
-                <div class="input">
-                    <p>Address</p>
-                    <span class="material-icons">
-                        home
-                    </span>
-                    <input type="text" name="" id="" placeholder="Your address...">
-                </div>
-
-                <div class="input">
-                    <p>City</p>
-                    <span class="material-icons">
-                        location_city
-                    </span>
-                    <input type="text" name="" id="" placeholder="Your city...">
-                </div>
-
-                <div class="nest">
-                    <div class="input">
-                        <p>Country</p>
-                        <span class="material-icons">
-                            public
-                        </span>
-                        <input type="text" name="" id="" placeholder="Your country...">
-                    </div>
-
-                    <div class="input">
-                        <p>Postal code</p>
-                        <span class="material-icons">
-                            markunread_mailbox
-                        </span>
-                        <input type="text" name="" id="" placeholder="Your postal code...">
-                    </div>
-                </div>
-
-
-                <div class="checkbox">
-                    <input type="checkbox" name="" id="">
-                    <label>Save this information for next time</label>
-                </div>
-
-                <div class="button">
-                    <button>Continue</button>
-                </div>
+            <div class="input">
+              <p>Postal code</p>
+              <span class="material-icons"> markunread_mailbox </span>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Your postal code..."
+              />
             </div>
-        </main>
+          </div>
 
+          <div class="checkbox">
+            <input type="checkbox" name="" id="" />
+            <label>Save this information for next time</label>
+          </div>
 
-        <section>
-            <div class="wrapper">
+          <div class="button">
+            <button>Continue</button>
+          </div>
+        </div>
+      </main>
 
-                <div class="product">
-                    <div class="image">
-                        <img src="./images/photo1.png" alt="">
-                    </div>
-
-                    <div class="detail">
-                        <h4>Vintage Backbag</h4>
-                        <p><b>$54.99</b> <span>$94.99</span></p>
-                        <div>
-                            <p class="num"> <button>-</button> <b>1</b> <button>+</button></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="image">
-                        <img src="./images/photo2.png" alt="">
-                    </div>
-
-                    <div class="detail">
-                        <h4>Levi Shoes</h4>
-                        <p><b>$74.99</b> <span>$124.99</span></p>
-                        <div>
-                            <p class="num"> <button>-</button> <b>1</b> <button>+</button></p>
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-                <div class="inline">
-                    <h3>Shipping</h3>
-                    <p>$19</p>
-                </div>
-
-                <hr>
-                <div class="inline">
-                    <h3>Total</h3>
-                    <p>$148.98</p>
-                </div>
+      <section>
+        <div class="wrapper">
+          <div class="product">
+            <div class="image">
+              <img src="./images/photo1.png" alt="" />
             </div>
-        </section>
 
+            <div class="detail">
+              <h4>Vintage Backbag</h4>
+              <p><b>$54.99</b> <span>$94.99</span></p>
+              <div>
+                <p class="num">
+                  <button>-</button> <b>1</b> <button>+</button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="image">
+              <img src="./images/photo2.png" alt="" />
+            </div>
 
+            <div class="detail">
+              <h4>Levi Shoes</h4>
+              <p><b>$74.99</b> <span>$124.99</span></p>
+              <div>
+                <p class="num">
+                  <button>-</button> <b>1</b> <button>+</button>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+          <div class="inline">
+            <h3>Shipping</h3>
+            <p>$19</p>
+          </div>
+
+          <hr />
+          <div class="inline">
+            <h3>Total</h3>
+            <p>$148.98</p>
+          </div>
+        </div>
+      </section>
     </div>
     <footer>
-        <p>venky-cs @ DevChallenges.io</p>
+      <p>venky-cs @ DevChallenges.io</p>
     </footer>
-</body>
-
+  </body>
 </html>

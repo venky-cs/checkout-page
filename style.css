@@ -1,238 +1,253 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    width: 80%;
-    margin: 0 auto;
-    height: 100vh;
-    font-family: 'Montserrat',
-    sans-serif;
+body {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.container{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content:space-evenly;
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
 }
-header{
-    width: 80%;
-    margin: 0 auto;
-    padding: 35px 20px;
+header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 35px 20px;
 }
-.title{
-    font-weight: 600;
-    font-size: 36px;
+.title {
+  font-weight: 600;
+  font-size: 36px;
 }
-main{
-    flex: 0.65;
+main {
+  flex: 0.65;
 }
-section{
-    flex: 0.30;
+section {
+  flex: 0.3;
 }
-.product{
-    display: flex;
-    align-items:center;
-    justify-content:center;
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.wrapper{
-    width: 80%;
-    background-color: #f2f2f2;
-    border-radius:12px;
-    margin:45px auto;
+.wrapper {
+  width: 80%;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  margin: 45px auto;
 }
-.image{
-    width:160px;
-    padding: 20px 30px 20px 0;
+.image {
+  width: 160px;
+  padding: 20px 30px 20px 0;
 }
-img{
-    width: 100%;
-    border-radius: 12px;
+img {
+  width: 100%;
+  border-radius: 12px;
 }
-.detail h4,.detail p{
-    padding: 8px;
+.detail h4,
+.detail p {
+  padding: 8px;
 }
-p b{
-    display: inline-block;
-    width: 80px;
-    color:#F2994A;
-    font-weight: 600;
-    font-size: 16px;
+p b {
+  display: inline-block;
+  width: 80px;
+  color: #f2994a;
+  font-weight: 600;
+  font-size: 16px;
 }
-p span{
-    text-decoration: line-through;
-    font-weight: 600;
-    font-size: 12px;
+p span {
+  text-decoration: line-through;
+  font-weight: 600;
+  font-size: 12px;
 }
 
-.num b{
-    color: black;
+.num b {
+  color: black;
 }
-.num button{
-    background-color: #E0E0E0;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 2px;
+.num button {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px;
 }
-.detail div{
-    width: 150px;
-    text-align: center;
-    border-radius: 12px;
-    background-color: #f2f2f2;
-    border: 1px solid grey;
+.detail div {
+  width: 150px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+  border: 1px solid grey;
 }
-.detail h4{
-    font-weight: 600;
-    font-size: 16px;
+.detail h4 {
+  font-weight: 600;
+  font-size: 16px;
 }
-.inline{
-    display: flex;
-    padding: 15px;
+.inline {
+  display: flex;
+  padding: 15px;
 }
-.inline h3{
-    width: 400px;
-    font-weight: 600;
-    font-size: 18px;
+.inline h3 {
+  width: 400px;
+  font-weight: 600;
+  font-size: 18px;
 }
-.input{
-    padding: 10px 0;
+.input {
+  padding: 10px 0;
 }
-.input p, .checkbox label{
-    font-weight: 600;
-    font-size: 12px;
+.input p,
+.checkbox label {
+  font-weight: 600;
+  font-size: 12px;
 }
-input{
-    width:65%;
-    padding:5px;
-    border-radius: 6px;
-    border: 1px solid grey;
+input {
+  width: 65%;
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid grey;
 }
-.checkbox label{
-    display: inline;
+.checkbox label {
+  display: inline;
 }
-.checkbox input{
-    width: 30px;
+.checkbox input {
+  width: 30px;
 }
-.button{
-    margin-left: 60%;
+.button {
+  margin-left: 60%;
 }
-.contact, .address{
-    margin: 40px 0;
+.contact,
+.address {
+  margin: 40px 0;
 }
-.sub-title{
-    font-weight: 600;
-    font-size: 18px;
+.sub-title {
+  font-weight: 600;
+  font-size: 18px;
 }
 .nest {
-    display: flex;
+  display: flex;
 }
-.nest .input input{
-    width: 85%;
+.nest .input input {
+  width: 85%;
 }
-.button button{
-    padding:10px 30px;
-    margin: 15px;
-    border-radius: 12px;
-    background-color:orange;
-    color:white;
-    border: 1px solid grey;
-    font-weight: 600;
-    font-size: 16px;
+.button button {
+  padding: 10px 30px;
+  margin: 15px;
+  border-radius: 12px;
+  background-color: orange;
+  color: white;
+  border: 1px solid grey;
+  font-weight: 600;
+  font-size: 16px;
 }
-.button button:focus{
-    outline: none;
+.button button:focus {
+  outline: none;
 }
-footer p{
-    text-align:center;
-    font-weight: 600;
-    font-size: 14px;
+footer p {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 /* icons */
 
-.input >span{
-    position:absolute;
-    right: 100;
-    color: grey;
-    width: 70%;
+.input > span {
+  position: absolute;
+  right: 100;
+  color: grey;
+  width: 70%;
 }
 
-.input > input{
-    padding-left: 30px;
+.input > input {
+  padding-left: 30px;
 }
 
-@media(max-width:1024px){
-    body,
-    header,
-    .container {
-        width: 90%;
-    }
-    header {
-        padding:20px 0;
-    }
-main {
+@media (max-width: 1024px) {
+  body,
+  header,
+  .container {
+    width: 90%;
+  }
+  header {
+    padding: 20px 0;
+  }
+  main {
     flex: 1;
     width: 50%;
-}
-.wrapper{
+  }
+  .wrapper {
     margin-top: 20px;
-}
+  }
 
-section {
+  section {
     flex: 1;
     width: 60%;
     margin: 35px 0;
-}
+  }
 }
 
-@media (max-width:768px){
-body,header,.container{
-width: 100%;
-}
- main {
-     width: 100%;
- }
-
- .product {
-     justify-content: space-around;
- }
-header{
-    padding: 20px;
-}
-section{
+@media (max-width: 768px) {
+  body,
+  header,
+  .container {
     width: 100%;
-}
-.wrapper{
+  }
+  main {
+    width: 100%;
+  }
+
+  .product {
+    justify-content: space-around;
+  }
+  header {
+    padding: 20px;
+  }
+  section {
+    width: 100%;
+  }
+  .wrapper {
     width: 80%;
     margin: 0 auto;
-}
-    .container {
-        flex-direction: column;
-    }
-    .contact ,.address{
-        margin:4%;
-    }
-    input{
-        width: 100%;
-    }
+  }
+  .container {
+    flex-direction: column;
+  }
+  .contact,
+  .address {
+    margin: 4%;
+  }
+  input {
+    width: 100%;
+  }
 
-    main {
-        order: 2;
-    }
+  main {
+    order: 2;
+  }
 
-    .section {
-        order: 1;
-    }
-}
-
-@media (max-width:450px){
-    .wrapper{
-        width: 95%;
-        margin: 0 auto;
-    }
+  .section {
+    order: 1;
+  }
+  footer p{
+      position: relative;
+      bottom:0;
+  }
 }
 
+@media (max-width: 450px) {
+  .wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+  footer p{
+      position: relative;
+      bottom:0;
+  }
+}
